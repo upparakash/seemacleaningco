@@ -1,4 +1,4 @@
-import React from "react";
+
 import AboutImg from "./images/image1.jpg";
 import AboutImgArabic from "./images/image1.jpg"; // You can replace if needed
 import "./AboutUs.css";
@@ -11,9 +11,9 @@ const AboutUs = () => {
       <section className="about-section">
         <div className="about-content">
           <h3 className="about-subtitle">We're Cleaning for You</h3>
-          <h2 className="about-title">About Seema United Contracting</h2>
+          <h2 className="about-title">About Karm Cleaning Services Contracting</h2>
           <p className="about-text">
-            Seema United Contracting has been dedicated to providing top-quality, reliable, and
+            Karm Cleaning Services Contracting has been dedicated to providing top-quality, reliable, and
             affordable cleaning solutions for homes and businesses. With a team of skilled and
             experienced professionals, we strive to create spotless environments that enhance
             the comfort and productivity of our clients.
@@ -23,7 +23,7 @@ const AboutUs = () => {
             cleanings to specialized treatments — all tailored to meet the unique needs of every space.
           </p>
           <p className="about-text">
-            At Seema United Contracting, we value trust, transparency, and customer satisfaction,
+            At Karm Cleaning Services Contracting, we value trust, transparency, and customer satisfaction,
             ensuring every experience with us is seamless and refreshing. With customized, eco-friendly
             cleaning solutions, we deliver high-quality, reliable results with great attention to
             detail, making your space healthier and spotless every time.
@@ -33,7 +33,7 @@ const AboutUs = () => {
         </div>
 
         <div className="about-image">
-          <img src={AboutImg} alt="About Seema United Contracting" />
+          <img src={AboutImg} alt="About Karm Cleaning Services Contracting" />
         </div>
       </section>
 

@@ -9,17 +9,17 @@ const Footer = () => {
 
         {/* Left: Copyright */}
         <p className="footer-text">
-          © {new Date().getFullYear()} All Rights Reserved | Seema United Contracting
+          © {new Date().getFullYear()} All Rights Reserved | Karm Cleaning Services Kuwait
         </p>
 
         {/* Center: Email */}
         <p className="footer-text">
-          <FaEnvelope className="footer-icon" /> E-Mail: seemaunitedcontracting@gmail.com
+          <FaEnvelope className="footer-icon" /> E-Mail: karmcleaningservice@gmail.com
         </p>
 
         {/* Right: Phone */}
         <p className="footer-text">
-          <FaPhoneAlt className="footer-icon" /> Phone: +965 66850444 &nbsp; | &nbsp; +965 65050805
+          <FaPhoneAlt className="footer-icon" /> Phone: +965 55396880 &nbsp; | &nbsp; +965 50449213 &nbsp; | &nbsp; +965 60446934
         </p>
 
       </div>

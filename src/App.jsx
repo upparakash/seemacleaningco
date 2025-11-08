@@ -15,11 +15,11 @@ function App() {
         <div className="flex flex-col md:flex-row md:items-center md:gap-6 text-center md:text-left space-y-1 md:space-y-0">
           <p className="text-white">
             <span className="font-semibold">E-Mail:</span>{" "}
-            seemaunitedcontracting@gmail.com
+            karmcleaningservice@gmail.com
           </p>
           <p className="text-white">
             <span className="font-semibold">Phone:</span>{" "}
-            +965 66850444 &nbsp; | &nbsp; +965 65050805
+            +965 55396880 &nbsp; | &nbsp; +965 50449213 &nbsp; | &nbsp; +965 60446934
           </p>
         </div>
 

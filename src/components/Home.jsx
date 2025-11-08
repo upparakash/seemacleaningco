@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from "react";
-import Image1 from "./images/image1.jpg";
-import Image2 from "./images/image2.jpg";
+import Image1 from "./images/slide1.png";
+import Image2 from "./images/slide2.jpeg";
+import Image3 from "./images/slide3.jpg";
+import Image4 from "./images/slide4.png";
+import Image5 from "./images/slide5.png";
+import Image6 from "./images/slide6.png";
 import AboutUs from "./AboutUs";
 import OurServices from "./OurServices";
 import BookNow from "./BookNow";
+import WhyChooseUs from "./WhyChooseUs";
 import "./Home.css";
 
 const Home = () => {
@@ -15,6 +20,26 @@ const Home = () => {
     },
     {
       src: Image2,
+      title: "We Build with Integrity & Professionalism",
+      desc: "Providing top-notch construction and maintenance solutions",
+    },
+    {
+      src: Image3,
+      title: "Quality Contracting Services You Can Trust",
+      desc: "Delivering excellence and reliability throughout Kuwait",
+    },
+    {
+      src: Image4,
+      title: "We Build with Integrity & Professionalism",
+      desc: "Providing top-notch construction and maintenance solutions",
+    },
+     {
+      src: Image5,
+      title: "We Build with Integrity & Professionalism",
+      desc: "Providing top-notch construction and maintenance solutions",
+    },
+    {
+      src: Image6,
       title: "We Build with Integrity & Professionalism",
       desc: "Providing top-notch construction and maintenance solutions",
     },
@@ -74,6 +99,9 @@ const Home = () => {
 
       <section id="services">
         <OurServices />
+      </section>
+      <section id="services">
+        <WhyChooseUs />
       </section>
 
       <section id="book">
